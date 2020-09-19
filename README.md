@@ -18,7 +18,7 @@ use AlexanderLogachev\ApiNamaztimes;
 ```php
 use AlexanderLogachev\ApiNamaztimes;
 
-$countryID = 99; // ID страны из полеченного списка методом getCountries
+$countryID = 99; // ID страны из полученного списка методом getCountries
 
 (new ApiNamaztimes())->getRegions($countryID);
 ```
@@ -28,7 +28,7 @@ $countryID = 99; // ID страны из полеченного списка м�
 ```php
 use AlexanderLogachev\ApiNamaztimes;
 
-$regionID = 'Almaty'; // ID региона из полеченного списка методом getRegions
+$regionID = 'Almaty'; // ID региона из полученного списка методом getRegions
 
 (new ApiNamaztimes())->getCities($regionID);
 ```
